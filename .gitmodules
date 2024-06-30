@@ -1,0 +1,3 @@
+[submodule "gilaNotifications"]
+	path = gilaNotifications
+	url = https://github.com/menidh69/gilaNotifications.git
