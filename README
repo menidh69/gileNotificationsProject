@@ -1,4 +1,6 @@
-Requirements: Docker installed
+Requirements: 
+Docker installed
+Git installed
 
 git clone --recurse-submodules 
 git submodule init
