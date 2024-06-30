@@ -1,0 +1,17 @@
+Requirements: Docker installed
+
+# Run project
+To use Nest JS application run in terminal:
+  `docker-compose -f docker.compose.yml build`
+  `docker-compose -f docker.compose.yml up -d`
+
+To use ExpressJS version run in terminal:
+  `docker-compose -f docker-compose-express.yml`
+  `docker-compose -f docker-compose-express.yml up -d`
+
+# Database access
+Connect to database from localhost:
+  Host: localhost
+  User: root
+  Password: admin
+  Port: 3307
