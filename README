@@ -3,10 +3,10 @@ Docker installed
 Git installed
 Node 20.15
 
-# STEP 1 - Clone repository and submodules
-git clone --recurse-submodules 
+# STEP 1 - Clone the repository and submodules
+git clone --recurse-submodules <repoURL>
 
-# In case you normally clone the repo, Init and update submodules if git clone didn´t have recurse flag
+# In case you cloned the repo without the recurse flag, run these Init and update submodules commands
 git submodule init
 git submodule update
 
