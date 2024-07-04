@@ -6,7 +6,7 @@ services:
     restart: always
     environment:
       NODE_ENV: local
-      REACT_APP_API_URL: "http://gila-notifications:3001"
+      REACT_APP_API_URL: "http://localhost:3001"
     ports:
       - "3000:3000"
       - 9080:9080
